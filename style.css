@@ -1,0 +1,435 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+
+    background: #f8fafc;
+
+    color: #333;
+
+}
+
+header {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: #2563eb;
+}
+section h2 {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+    color: #2563eb;
+
+}
+section h4 {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+    color: #2563eb;
+
+}
+
+.projet {
+    border-left: 5px solid #2563eb;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+}
+
+
+.hero {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 60px;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    color: white;
+
+}
+
+
+.hero-text {
+
+    max-width: 700px;
+
+}
+
+
+.hero-text {
+
+    width: 50%;
+
+}
+
+
+.hero-text h1 {
+
+    font-size: 45px;
+
+}
+
+
+.hero-text h2 {
+
+    color: white;
+
+}
+
+
+.hero-image img {
+
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 5px solid white;
+
+}
+
+
+.btn {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 30px;
+
+    background: white;
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+
+.btn:hover {
+
+    transform: translateY(-3px);
+
+}
+.profile img {
+
+    width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 5px solid white;
+
+    margin: 20px 0;
+
+}
+.card {
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    margin: 20px 0;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.card h3 {
+
+    color: #2563eb;
+
+}
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background: white;
+
+}
+
+
+.logo {
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #2563eb;
+
+}
+
+
+.navbar ul {
+
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+
+
+.navbar a {
+
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+.competences-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+
+.competence-card {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    text-align: center;
+
+}
+
+
+.competence-card h3 {
+
+    color: #2563eb;
+
+}
+@media(max-width:768px){
+
+    .competences-container{
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+html {
+
+    scroll-behavior: smooth;
+
+}
+@media screen and (max-width: 768px) {
+
+
+    /* Menu */
+
+    .navbar {
+
+        flex-direction: column;
+
+        padding: 20px;
+
+    }
+
+
+    .navbar ul {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 0;
+
+    }
+
+
+    /* Accueil */
+
+    .hero {
+
+        padding: 40px 20px;
+
+    }
+
+
+    .hero-text h1 {
+
+        font-size: 32px;
+
+    }
+
+
+    .profile img {
+
+        width: 150px;
+
+        height: 150px;
+
+    }
+
+
+    /* Sections */
+
+    section {
+
+        margin: 15px;
+
+        padding: 20px;
+
+    }
+
+
+}
+@media screen and (max-width: 768px) {
+
+
+    /* Menu */
+
+    .navbar {
+
+        flex-direction: column;
+
+        padding: 20px;
+
+    }
+
+
+    .navbar ul {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 0;
+
+    }
+
+
+    /* Accueil */
+
+    .hero {
+
+        padding: 40px 20px;
+
+    }
+
+
+    .hero-text h1 {
+
+        font-size: 32px;
+
+    }
+
+
+    .profile img {
+
+        width: 150px;
+
+        height: 150px;
+
+    }
+
+
+    /* Sections */
+
+    section {
+
+        margin: 15px;
+
+        padding: 20px;
+
+    }
+
+
+}
+section {
+
+    animation: apparition 1s ease;
+
+}
+
+
+@keyframes apparition {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(30px);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+.competence-card:hover,
+.card:hover,
+.contact-card:hover {
+
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+
+}
